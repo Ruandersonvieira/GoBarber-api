@@ -3,4 +3,4 @@ yarn-error.log
 tmp/uploads
 .vscode
 .env
-temp/uploads/*
+tmp/uploads/*
