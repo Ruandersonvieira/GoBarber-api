@@ -1,6 +1,6 @@
 export default {
-  secret: 'pão',
+  secret: process.env.APP_SECRET,
   config: {
-    expiresIn: '7d',
+    expiresIn: process.env.APP_EXPIRY,
   },
 };
